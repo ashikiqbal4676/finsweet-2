@@ -1,0 +1,67 @@
+#meet{
+    padding: 50px 0;
+    background-color:  #F4F6FC;
+}
+
+
+.meet-head{
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 48px;
+    }
+}
+
+
+
+.meet-item{
+    background-color: #fff;
+    padding: 20px 20px;
+}
+
+.meet-img{
+
+        position: relative;
+
+        &:hover .meet-overlay{
+            opacity: 1;
+            transition: 0.5s;
+        }
+   
+    .meet-overlay{
+        position: absolute;
+        top: 0;
+        left: 26px;
+        width: 76%;
+        height: 100%;
+        background: linear-gradient(348.37deg, #5239FA 17.97%, rgba(255, 255, 255, 0) 79.2%);
+        border-radius: 50%;
+        opacity: 0;
+
+        i{
+           
+            margin-top: 130px;
+            color: #fff;
+            margin-left: 5px;
+        }
+    }
+}
+
+
+
+
+.meet-text{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+
+    h3{
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+}

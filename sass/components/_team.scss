@@ -1,0 +1,34 @@
+#team{
+    padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+
+.team-head{
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        padding: 0 250px;
+    }
+}
+
+.team-item{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4F6FC;
+    padding: 30px 40px;
+
+    h3{
+        margin: 20px 0;
+        font-weight: 500;
+        font-size: 24px;
+
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 28px;
+    }
+}

@@ -1,0 +1,106 @@
+#pricieng-plan{
+    padding-bottom: 50px;
+}
+
+
+
+.pricieng-plan-item{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4F6FC;
+    padding: 50px 50px;
+    border-radius: 10px;
+
+    &:hover{
+        background-color: #1C1E53;
+        transition: 0.3s;
+    }
+
+    &:hover .pricieng-plan-text{
+        color: #fff;
+        transition: 0.3s;
+
+        span{
+            color: #FCD980;
+            transition: 0.3s;
+        }
+    }
+
+    &:hover .pricieng-plan-inner{
+        h6{
+            color: #fff;
+            transition: 0.3s;
+        }
+    }
+
+    &:hover .pricieng-plan-btn{
+        a{
+            background-color: #FCD980;
+            color: #282938;
+            transition: 0.3s;
+        }
+    }
+
+    .pricieng-plan-text{
+  
+        h3{
+            font-weight: 600;
+            font-size: 38px;
+            position: relative;
+            span{
+                font-weight: 400;
+                font-size: 16px;
+                position: absolute;
+                top: 14px;
+                left: 108px;
+                color: #2405F2;
+            }
+        }
+
+        h5{
+            font-weight: 500;
+            font-size: 24px;
+            padding: 10px 0;
+        }
+
+        p{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 28px;
+            opacity: 0.7;
+        }
+    }
+
+
+
+
+    .pricieng-plan-inner{
+        h6{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            position: relative;
+            margin-left: 22px;
+            span{
+                
+                position: absolute;
+                top: 0;
+                left: -22px;
+                color:  #97DAAD;
+            }
+        }
+    }
+
+
+    .pricieng-plan-btn{
+        margin-top: 50px;
+        a{
+            padding: 16px 30px;
+            background-color: #282938;
+            border-radius: 41px;
+            color: #fff;
+        }
+    }
+
+
+
+}

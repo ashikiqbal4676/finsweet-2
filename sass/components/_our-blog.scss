@@ -1,0 +1,60 @@
+#our-blog{
+    padding-bottom: 50px;
+}
+
+
+
+.our-blog-head{
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 48px;
+    }
+}
+
+
+
+
+.our-blog-img{
+    overflow: hidden;
+    &:hover img{
+        transform: scale(1.2);
+        transition: 0.5s;
+    }
+}
+
+
+.our-blog-text{
+    font-family: 'Poppins', sans-serif;
+    h6{
+       margin-top: 30px;
+    }
+
+    h3{
+      
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+
+
+.our-blog-btn{
+  
+    a{
+        color: #000;
+        position: relative;
+        span{
+            position: absolute;
+            top: 1px;
+            right: -22px;
+        }
+    }
+}
+

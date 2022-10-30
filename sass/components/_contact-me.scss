@@ -1,0 +1,29 @@
+#contact-me{
+    padding: 50px 0;
+    
+}
+
+
+.contact-me-item{
+    background-color:  #F4F6FC;
+    padding: 100px 50px;
+}
+
+
+.contact-me-btn{
+    margin-top: 40px;
+    a{
+        padding: 16px 30px;
+        background-color: #000;
+        border-radius: 41px;
+        color: #fff;
+
+        &:hover{
+            background-color: #F4F6FC;
+            border: 1px solid darkblue;
+            color: #000;
+            transition: 0.2s;
+        }
+    }
+}
+
